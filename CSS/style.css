@@ -8,7 +8,52 @@ header{
     Border: solid 2px white;
 }
 
-h2{
+#h2Home{
+    display:flex;
+    width:33%;
+    justify-content: center;
+    align-content: center;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#h2OverMij{
+    display:flex;
+    width:33%;
+    justify-content: center;
+    align-content: center;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#h2Vaardigheden{
+    display:flex;
+    width:33%;
+    justify-content: center;
+    align-content: center;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#h2Projecten{
+    display:flex;
+    width:33%;
+    justify-content: center;
+    align-content: center;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#h2Nieuws{
+    display:flex;
+    width:33%;
+    justify-content: center;
+    align-content: center;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#h2Contact{
     display:flex;
     width:33%;
     justify-content: center;
@@ -18,17 +63,32 @@ h2{
     margin-right: auto; 
 }
 
+#h2ContactenMain{
+    display: flex;
+    width:33%;
+    height: 18%;
+}
+
 #home{
     display:flex;
     width:33%;
     justify-content: center;
     align-content: center;
-    height:100%;
+    height:98%;
     border: solid 2px white;
     margin-left: auto;
     margin-right: auto;
 }
 
+#homeContact{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    width: 33%;
+    height:66%;
+    border: solid 2px white;
+    font-size: 10px;
+}
 a{
     color: goldenrod;
 }
@@ -53,6 +113,8 @@ main {
 }
 
 footer{
+    display: flex;
+    align-items: flex-end;
     width: 100%;
     height: 50px;
 }
@@ -77,15 +139,10 @@ footer{
 
 #yeetrechts{
     width: 33%;
+    height: 95%;
 }
 
 #yeetlink{
     width: 33%;
-}
-
-.contactTekst{
-    width:33%;
-    height:100%;
-    margin-left: auto;
-    margin-right: auto;   
+    height: 95%;
 }
