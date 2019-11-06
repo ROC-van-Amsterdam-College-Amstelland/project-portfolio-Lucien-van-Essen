@@ -14,7 +14,7 @@
             <h1><a href="over-mij.html">Over Mij</a></h1>
             <h1><a class="active" href="vaardigheden.html">Vaardigheden</a></h1>
             <h1><a href="projecten.html">Projecten</a></h1>
-            <h1><a href="nieuws.html">Laatste Nieuws</a></h1>
+            
             <h1><a href="contact.html">Contact</a></h1>
         </nav>          
     </header>
@@ -28,18 +28,25 @@
         <h2>
         Als beginned programmeur beheers ik de programmatalen:
         <ul></ul>
-        <li>Javascript</li>, <li>CSS</li> en <li>HTML</li>.
+        <li>Javascript</li>, <li>CSS</li> & <li>HTML</li>.
         </ul>
         </h2>
         <h2>Ik beheers ook de Engelse taal naast de Nederlandse. Schrijvend zowel als sprekend.</h2>
         </div>               
-        <div id="yeetrechts"><img id="img4" src="Images/eso.png" alt="elderscrolls online" width="100%" height="100%">Hobby's</div>
+        <div id="yeetrechts"><img id="img4" src="Images/eso.png" alt="elderscrolls online" width="100%" height="100%" onclick="verander4()">
+            <img id="img5" src="Images/darksouls.jpg" alt="darksouls" width="100%" height="100%" onclick="verander5()">
+            <img id="img6" src="Images/overwatch.jpg" alt="overwatch" width="100%" height="100%" onclick="verander6()">
+            <a href="over-mij.html">Hobby's</a></div>
 
     </main>
     <footer>
+            <button id="likeButton" onclick="like()">Like</button>
+            <button id="dislikeButton" onclick="dislike()">Dislike</button>
         <div  id="github">
             <a href="https://github.com/Lucien-van-Essen">Github</a>
         </div>
+        <div id="datum">
+            </div>
     </footer>
 
     <script src="js/script.js"></script>

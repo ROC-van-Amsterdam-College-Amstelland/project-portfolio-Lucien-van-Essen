@@ -27,11 +27,12 @@ header{
     margin-right: auto; 
 }
 #h2OverMijMain{
-    display:flex;
     width:66%;
-    justify-content: flex-end;
-    align-content: flex-end;
     height:66%;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
 } 
 #h2Vaardigheden{
     display:flex;
@@ -92,6 +93,7 @@ header{
     width:33%;
     justify-content: flex-start;
     align-content: center;
+    margin-right: auto;
     height:66%;
     border: solid 2px white;
 }
@@ -129,7 +131,7 @@ main {
     width:100%;
     height: 500px;
 }
-#img1,#img2,#img3,#img4{
+#img1,#img2,#img3,#img4,#img5,#img6{
     width:100%;
 }
 
@@ -139,7 +141,15 @@ footer{
     width: 100%;
     height: 50px;
 }
-
+#datum{
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    border: solid 2px white;
+    color: goldenrod;
+}
 #github{
     display:flex;
     justify-content: space-around;
@@ -154,7 +164,7 @@ footer{
     border-radius: 10%;
 }
 
-#img2, #img3{
+#img2, #img3, #img5, #img6{
     display: none;
 }
 
@@ -166,4 +176,12 @@ footer{
 #yeetlink{
     width: 33%;
     height: 95%;
+}
+
+button{
+    flex-direction: row;
+    background: black;
+    color:white;
+    width: 9%;
+    height: 55px;
 }
